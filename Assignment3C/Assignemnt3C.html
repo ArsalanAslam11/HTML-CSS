@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment3
+        </title>
+        <body>
+            <div class="Main">
+                <div class="inner">
+                    <div class="Sign"><h3>Sign in</h3></div>
+                    <div class="x"><h3>x</h3></div>
+                    <div class="line"></div>
+                    <div class="login-text-field">
+                    <input type="text" class="login-input" placeholder="Put your login here"></div>
+                    <div class="Capslock">
+                    <input type="text" class="Caps"><p class="Caps-on">Caps on!<img src="download.jpg" width="10px" height="10px"></p></div>
+                    <div class="Forget"><p>Forget Password?</p></div>
+                    <div class="link"><a style="text-decoration: none; color:#51a2d2; font-size: small;"  href="#abcd">Click here to restore</a></div>
+                    <button class="button"><b>Login</b></button>     
+                    <div class="Show"> Show password</div>
+                    <div class="Remember"> Remember me</div>
+                    <input type="checkbox" id="Checkbox" name="showpass">
+                    <input type="checkbox" id="Checkbox1" name="showpass">
+                    <div class="line2"></div>
+                    <div class="line1"></div>
+                    <p class="text">You can also login with your social account</p>
+                    <button class="button1"><img style="padding-top: 1px;" src ="Screenshot 2024-07-31 000746.png"> Facebook</button>
+                    <button class="button2"><img style="padding-top: 1px;" src ="Screenshot 2024-07-31 000837.png"> Twitter</button>
+                    <button class="button3"><img style="padding-top: 1px;" src ="Screenshot 2024-07-31 000915.png"> Google</button>
+                    <p class="text1">Or use your OpenID to login</p>
+                    <input type="text" class="OpenID" placeholder="Your OpenID">
+                    <button class="button4">Go</button>
+                    <p class="text2">You may need to disable any popup blockers<br>to login with above sites</p>
+                    <p class="Dont">Dont registered?</p>
+                    <div class="link1"><a style="text-decoration: none; color:#51a2d2; font-size: small;"  href="#abcd">Register now!</a></div>
+                </div>
+            </div>
+        </body>
+
+        <style>
+            .Main{
+                margin-left: 150px;
+                margin-top: 70px;
+                width: 900px;
+                height: 400px;
+                padding-top: 45px;
+                background-image: radial-gradient(#1b76a5 50%, #093558 58%,#093558 0%);
+            }
+            .inner{
+                width:700px ;
+                border-radius: 5px;
+                height: 350px;
+                margin-left: 95px;
+                background-color:#f0f0f0;
+            }
+            .Sign{
+               
+                margin-left: 15px;
+                padding-top: 1px;
+                color: hwb(202 32% 18%);
+            }
+            .x{
+                margin-left: 660px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #51a2d2;
+                margin-top: -40px;
+            }
+            .line{
+                height: 2px;
+                width: 660px;
+                margin-left: 15px;
+                margin-top: -10px;
+                background-color:  #e6e6e6;
+            }
+            .login-text-field {
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+            .login-input {
+                width: 270px;
+                height: 20px;
+                border-radius: 5px;
+                padding: 5px; 
+                border-color: #ebebeb ;
+            }
+            .Capslock {
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            .Caps {
+                width: 270px;
+                height: 20px;
+                padding: 5px; 
+                border-radius: 5px;
+                border-top-color: #51a2d2;
+                border-left-color:#51a2d2 ;
+                border-right-color:#51a2d2 ;
+                border-bottom-color: #51a2d2;
+            }
+            .Caps-on {
+                width: 270px;
+                height: 20px;
+                margin-top:-25px;
+                text-align:right;
+                color:  #969595 ;
+            }
+            .Forget{
+                margin-top: 15px;
+                color:  #969595 ;
+                margin-left: 15px;
+                font-size: small;
+            }
+            .link{
+                text-decoration: none; 
+                margin-left: 120px;
+                margin-top: -30px;
+            }
+            .button{
+                background-color: #51a2d2  ;
+                width: 110px;
+                margin-top: 30px;
+                margin-left: 15px;
+                border-radius: 5px;
+                border-color: #51a2d2;
+                height: 40px;
+                color: white;
+            }
+            .Show{
+                width: 500px;
+                height: 300px;
+                margin-left: 150px;
+                color:  #969595 ;
+                margin-top:-40px ;
+            }
+            .Remember{
+                margin-top: -275px;
+                color:  #969595 ;
+                margin-left:150px ;
+            }
+            #Checkbox{
+                position: absolute;
+                margin-left: 285px;
+                margin-top: -41px;
+                accent-color: rgb(81, 162, 210);
+            }
+            #Checkbox1{
+                position: absolute;
+                margin-left: 285px;
+                margin-top: -15px;
+                accent-color: rgb(81, 162, 210);
+            }
+            .line2{
+                height: 2px;
+                width: 660px;
+                margin-left: 15px;
+                margin-top: 40px;
+                background-color:  #e6e6e6;            
+            }
+            .line1{
+                width: 2px;
+                height: 210px;
+                margin-top: -240px;
+                margin-left: 330px;
+                background-color:  #e6e6e6;
+            }
+            .text{
+                padding-top: 20px;
+                position: relative;
+                color:  #969595 ;
+                font-size: 15px;
+                margin-top: -230px;
+                margin-left: 360px;
+            }
+            .button1{
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+                border-color:#e6e6e6;
+                margin-left: 360px;
+                text-align: center;
+            }
+            .button2{
+                position: absolute;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+                border-color:#e6e6e6;
+                margin-top: 0px;
+                margin-left: 10px;
+                text-align: center;
+            }
+            .button3{
+                position: absolute;
+                width: 100px;
+                border-radius: 5px;
+                height: 40px;
+                margin-left: 120px;
+                border-top-color: #51a2d2;
+                border-left-color:#51a2d2 ;
+                border-right-color:#51a2d2 ;
+                border-bottom-color: #51a2d2;
+                text-align: center;
+            }
+            .text1{
+                color:  #969595 ;
+                font-size: 15px;
+                margin-left: 360px;
+            }
+            .OpenID{
+                width: 270px;
+                height: 20px;
+                padding: 5px; 
+                border-radius: 5px;
+                margin-left: 360px;
+                border: white;
+            }
+            .button4{
+                background-color:#51a2d2 ;
+                border-top-color: #51a2d2;
+                border-left-color:#51a2d2 ;
+                border-right-color:#51a2d2 ;
+                border-bottom-color: #51a2d2;
+                border-radius: 5px;
+                color: white;
+                margin-left: -7px;
+                width: 42px;
+                height: 30px;
+            }
+            .text2{
+                color:  #969595 ;
+                font-size: 13px;
+                margin-left: 360px;
+            }
+            .Dont{
+                margin-top: 54px;
+                color:  #969595 ;
+                margin-left: 260px;
+                font-size: 16px;
+            }
+            .link1{
+                text-decoration: none; 
+                margin-left: 120px;
+                font-size: 16px;
+                margin-left: 370px;
+                margin-top: -35px;
+            }
+        </style>
+    </head>
+</html>
